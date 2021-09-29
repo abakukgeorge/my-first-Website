@@ -1,0 +1,15 @@
+*{
+	margin=:0;
+	padding: 0;
+}
+
+{
+	background-image: url(home.JPG);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;}
+   .main-nav
+	{
+		float: right: ;
+	}
+
