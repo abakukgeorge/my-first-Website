@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(224, 211, 134);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 45%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: darkblue;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #21066b;
+    font-size: 21px;
+}
+.content-section .content {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 3px;
+}
+.content-section .content .button{
+    background-color: crimson;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    
+}
+.content-section .content .button a:hover{
+   background-color: darkgoldenrod;
+   color: darkred;
+}
+.content-section .social{
+    margin: 40px  40px;
+}
+
+.content-section .social i{
+    color: darkviolet;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover{
+    color: firebrick;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

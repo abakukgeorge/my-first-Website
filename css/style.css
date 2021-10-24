@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 205vh;
+    background: linear-gradient(to top, rgb(0,0,0,0.5)50%,rgb(0,0,0,0.5)50%),url(../images/pic4.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+   .menu{
+       width: 100px;
+       float:right;
+       height: 75px;
+   }
+   ul{
+       float:  right;
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+   }
+     ul li{
+         list-style: none;
+        margin-right: 62px;
+        margin-top: 20px;
+        font-size: 20px;
+   }
+   ul li a{
+       text-decoration: none;
+       color: white;
+       font-family: arial;
+       font-weight: bold;
+       transition: 0.4s ease-in-out;
+   }
+    .logo{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    ul li a:hover{
+        color: orangered;
+    }
+    .search{
+        width: 330px;
+        float: right;
+        margin-right: 270px;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid orangered;
+        margin-top: 13px;
+        color: white;
+        border-left: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background: orangered;
+        border: 2px solid orangered;
+        margin-top: 13px;
+        color: white;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .btn:focus{
+        outline: none;
+    }
+    .srch{
+        outline: none;
+    }
+    .content{
+        width: 1200px;
+        margin: left 30px;
+        margin-top: 10px;
+        position:absolute;
+    }
+    h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left:  200px;
+        background-color: blue;
+        padding: 10px,40px
+    }
+    h1{
+        border-style: dotted;
+        border-width: 5px;
+        border-color: white;
+        transition: .7s ease-in-out;
+    }
+    h2{
+        color:orangered;
+        text-transform: uppercase;
+        font-size:30px;
+        text-align: left;
+        margin-top: 250px;
+        margin-left: 80px;
+        transition: 2s,ease-in-out
+    }
+    p{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 20px;
+        color: white;
+        font-style: italic;
+        margin-left:80px;
+    }
+    .cn{
+        width: 160px;
+        height: 40px;
+        background: yellow;
+        border: none;
+        margin: 10px;
+        margin-left: 80px;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .cn{
+        text-decoration: none;
+        color: orangered;
+        transition: .3s ease;
+
+    }
+    .cn:hover{
+        background-color: white;
+    }
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact{
+    position: relative;
+    min-height: 100vn;
+    padding: 50px  100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('images/house.jpg');
+    background-size: cover;
+}
+.contact.content{
+    max-width: 800px;
+    text-align: center;
+}
+ .contact.content h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color:rgb(8, 1, 1);
+    align-items: right;
+}
+.contact .content p{
+
+    font-weight: 300px;
+    color:rgb(3, 0, 0)
+}
+.container
+{
+    width: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+}
+.container .contactInfo{
+
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.container .contactInfo .box{
+
+    position: relative
+    
+}
+.container .contactInfo .box .icon{
+
+  min-width: 6opx;
+  height: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 22px;
+}
+.container .contactInfo .box .text{
+
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300px;
+}
+.container .contactInfo .box .text h3{
+
+   font-weight: 500px;
+   color:#00bcd4;
+}
+.contactForm{
+
+    width: 40px;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2{
+
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm.inputBox input,
+.contactForm.inputBox textarea{
+
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom:  2px solid #333;
+    outline: none;
+}
+.contactForm.inputBox span{
+
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm.inputBox input:focus ~ span,
+.contactForm.inputBox input:valid ~ span,
+.contactForm.inputBox input:focus ~ span,
+.contactForm.inputBox input:valid ~ span{
+
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.send
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.image-section{
+    float: right;
+    width: 35%;
+    align-items: center;
+}
+.image-section img{
+    width: 100%;
+    height: 70%;
+    margin-top: -400px;
+    margin-left: -30px;
+    margin-bottom: -30px;
+    border-style: double;
+    
+    }
