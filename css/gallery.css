@@ -4,7 +4,7 @@
 }
 .main {
 	width: 100%;
-	height: 550px;
+	height: 500px;
 }
 
 .header {
@@ -24,14 +24,14 @@ div.audio{
 	float: center;
 justify-content: center;
 align-items: center;
-
+margin-top: -100%;
 }
 ul{
 	float:  right;
 	display: flex;
 	justify-content: center;
 	align-items: right; 
-	margin-top: -600%;
+	margin-top: -480%;
 }
   ul li{
 	  list-style: none;
