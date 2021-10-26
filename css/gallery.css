@@ -21,10 +21,9 @@
 	height: 75px;
 }
 div.audio{
-	float: center;
+	float: top;
 justify-content: center;
 align-items: center;
-margin-top: -100%;
 }
 ul{
 	float:  right;
