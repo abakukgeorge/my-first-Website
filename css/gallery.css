@@ -48,33 +48,6 @@ ul li a:hover{
 	width: 100%;
 	height: 85%;
 }
-
-
-.cont_left {
-    width: 20%;
-	float: left;
-	height: 100%;
-	background-color: rgba(20, 120, 255, 0.5);
-    color: white;
-    font-size: 30px;
-}
-
-.cont_right {
-    width: 20%;
-	float: right;
-	height: 100%;
-	background-color: rgba(20, 120, 255, 0.5);
-    margin-top: -552px;
-    color: white;
-    font-size: 30px;
-}
-.cont_center {
-	width: 70%;
-	float: left;
-	height: 100%;
-    
-}	
-
 .footer {	
     width: 100%;
 	height: 10%;
