@@ -4,7 +4,7 @@
 }
 .main {
 	width: 100%;
-	height: 650px;
+	height: 550px;
 }
 
 .header {
@@ -19,6 +19,12 @@
 	width: 100px;
 	float:right;
 	height: 75px;
+}
+div.audio{
+	float: center;
+justify-content: center;
+align-items: center;
+
 }
 ul{
 	float:  right;
@@ -62,8 +68,3 @@ h3{
         margin: 0px;
 	padding: 0px;
     }
-div.audio{	float: center;
-	justify-content: center;
-	align-items: center;
-
-}
