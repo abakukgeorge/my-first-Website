@@ -24,11 +24,13 @@
 }
 .image-section{
     float: right;
-    width: 45%;
+    width: 40%;
 }
 .image-section img{
     width: 100%;
     height: auto;
+    margin-bottom: 5%;
+    margin-top:-15%;
 }
 
 .content-section .title{
@@ -75,14 +77,6 @@
 .content-section .social i:hover{
     color: firebrick;
 }
-
-
-
-
-
-
-
-
 
 
 
